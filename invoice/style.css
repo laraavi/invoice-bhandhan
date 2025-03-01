@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    font-family:"Roboto", serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    background: rgb(204, 204, 204);
+    font-family: "Roboto", serif;
+}
+h2, h4 , p{
+    margin: 0;
+}
+.page{
+    background: #fff;
+    display: block;
+    margin:3rem auto 3rem auto ;
+    position: relative;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+.page[size="A4"]{
+    width: 21cm ;
+    /* A4 size height-29.7cm*/
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/** -top section**/
+.top-section{
+    color: #fff;
+    padding: 20px;
+    height: 115px;
+    background-color: teal;
+}
+.top-section h2{
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.contact{
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+.contact .contact-content{
+    max-width: 220px;
+    float: right;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.contact-content .number,
+.contact-content .address{
+    display: block;
+}
+.biling-table{
+    display: flex;
+    width: 100%;
+}
+table{
+    padding: 20px;
+    box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+}
+table ,td{
+    padding-top: 0px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 1px;
+
+}
+td{
+    width: 33%;
+}
+.Rules{
+    justify-content: center;
+}
+.Rules-head h1{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 1px;
+    align-items: center;
+
+}
+.Rules-head-1{
+    font-size:  20px;
+
+}
+
+.price-row{
+    background: teal;
+    color: #fff;
+}
+.price{
+    margin-top: 15px;
+}
